@@ -1,0 +1,17 @@
+@import "../../App.scss";
+
+.footer {
+  margin-top: 5rem;
+  margin-bottom: -1rem;
+  .empty-div {
+    height: 3px;
+    color: $whity;
+    background: $whity;
+  }
+  .copyright {
+    background: $black;
+    color: $grey;
+    padding: 2rem 0;
+    font-size: 1.2rem;
+  }
+}

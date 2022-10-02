@@ -1,0 +1,56 @@
+@import "../../App.scss";
+
+.frank {
+  .row {
+    h2 {
+      font-size: 3rem;
+      font-family: sans-serif;
+      font-weight: 600;
+      color: $black;
+    }
+    .frank-right {
+      .first-par {
+        color: $black;
+        font-family: Oswald, Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2em;
+        letter-spacing: 0.8px;
+      }
+      .second-par {
+        color: $black;
+        font-family: Oswald, Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2em;
+        letter-spacing: 0.8px;
+      }
+      .third-par {
+        color: $black;
+        font-family: Oswald, Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2em;
+        letter-spacing: 0.8px;
+      }
+    }
+    .third-par-list {
+      .third-par-list-icon {
+        color: $black;
+        font-family: Oswald, Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2em;
+        letter-spacing: 0.8px;
+      }
+      .third-par-list-des {
+        color: $black;
+        font-family: Oswald, Sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.2em;
+        letter-spacing: 0.8px;
+      }
+    }
+  }
+}

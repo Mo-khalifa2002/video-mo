@@ -1,0 +1,27 @@
+@import "../../App.scss";
+.portfolio-page{
+    h2{
+        color: $black;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+}
+.portfolio-iframe{
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.portfolio-par{
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    color: $black;
+}
+.back-to-home{
+    @include btnn;
+    text-align: center;
+    background: $blue;
+    &:hover{
+        background: $green;
+    }
+}

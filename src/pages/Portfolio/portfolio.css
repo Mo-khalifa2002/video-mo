@@ -1,0 +1,113 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.portfolio {
+  background: #f3f7fd;
+}
+
+.portfolio .button-vlogs {
+  background-color: #c74dd6 !important;
+}
+
+.portfolio .button-vlogs:hover {
+  background-color: #0849a2 !important;
+}
+
+.portfolio .portfolio-item .portfolio-iframe {
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(69, 109, 255, 0.449) 0px 3px 8px;
+          box-shadow: rgba(69, 109, 255, 0.449) 0px 3px 8px;
+  width: 21.25rem;
+  height: 12.1875rem;
+}
+
+.portfolio .portfolio-item .portfolio-par {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: #00082b;
+}
+
+.portfolio .por-have {
+  padding: 4rem 0;
+}
+
+.portfolio .por-have h1 {
+  font-size: 2.1rem;
+  font-family: cursive;
+  color: #00082b;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.portfolio .por-have p {
+  color: #0849a2;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0.7rem;
+}
+
+.portfolio .por-have .just {
+  text-align: center;
+  font-family: sans-serif;
+  color: #00082b;
+  -webkit-animation: justAnime 1s linear 2s infinite alternate;
+          animation: justAnime 1s linear 2s infinite alternate;
+}
+
+.portfolio .por-have button {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #48b3d8;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio .por-have button:hover {
+  background: #c74dd6;
+}
+
+@-webkit-keyframes justAnime {
+  from {
+    opacity: 1;
+    color: #00082b;
+  }
+  to {
+    opacity: 0.5;
+    color: #c74dd6;
+  }
+}
+
+@keyframes justAnime {
+  from {
+    opacity: 1;
+    color: #00082b;
+  }
+  to {
+    opacity: 0.5;
+    color: #c74dd6;
+  }
+}
+/*# sourceMappingURL=portfolio.css.map */

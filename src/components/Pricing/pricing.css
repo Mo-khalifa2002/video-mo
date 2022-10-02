@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.pricing {
+  padding: 3rem 0;
+  margin-top: 6rem;
+}
+
+.pricing p {
+  font-weight: 600;
+  color: #0849a2;
+  margin-bottom: 4px;
+  font-family: vsm;
+  font-size: 1.35rem;
+}
+
+.pricing h1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.pricing button {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #c74dd6;
+  margin-top: 2rem;
+}
+
+.pricing button:hover {
+  background: #48b3d8;
+}
+/*# sourceMappingURL=pricing.css.map */

@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.hero-video-mo-img {
+  width: 13rem;
+  margin-bottom: -1rem;
+}
+
+.hero-video-mo-img img {
+  width: 100%;
+}
+
+.hero {
+  background: #f3f7fd;
+  padding: 5rem 0;
+}
+
+.hero .hero-mo-editing {
+  font-size: 1.3rem;
+  color: #0849a2;
+  text-align: left;
+  text-transform: unset;
+  font-weight: 600;
+  margin-bottom: -0.3rem;
+}
+
+.hero h1 {
+  color: #0849a2;
+  font-size: 3.5rem;
+  font-weight: 700;
+  padding-right: 15px;
+  margin-bottom: 30px;
+  font-family: revert;
+}
+
+.hero .hero-par {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.3rem;
+  color: #00082b;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.hero .hero-portfolio {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #48b3d8;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero .hero-portfolio:hover {
+  background: #c74dd6;
+}
+
+.hero .hero-form {
+  background: #fff;
+  border-radius: 9px;
+  padding: 1rem 3rem;
+}
+
+.hero .hero-form h2 {
+  font-size: 2rem;
+  color: #00082b;
+  font-weight: 700;
+}
+
+.hero .hero-form form .hero-name,
+.hero .hero-form form .hero-email {
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  height: 55px;
+  padding: 20px 25px;
+  font-size: 14px;
+  line-height: 34px;
+  color: #00082b;
+  font-weight: 600;
+  border: none;
+}
+
+.hero .hero-form form .hero-message {
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  padding: 20px 25px;
+  font-size: 14px;
+  line-height: 34px;
+  color: #191e40;
+  font-weight: 600;
+  border: none;
+  min-height: 2rem;
+}
+
+.hero .hero-form form .form-control {
+  display: block !important;
+  width: 100% !important;
+}
+
+.hero .hero-form form button {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #c74dd6;
+  margin: 2rem 0;
+}
+
+.hero .hero-form form button:hover {
+  background: #0849a2;
+}
+/*# sourceMappingURL=hero.css.map */

@@ -1,0 +1,39 @@
+@import "../../App.scss";
+
+.process {
+  margin-top: 5rem;
+  .process-heading {
+    h1 {
+      @include hh;
+      font-weight: 700;
+    }
+    p::first-child {
+      color: $black;
+      font-family: "Mulish", sans-serif;
+      text-align: center;
+      margin-bottom: -0.5rem;
+      margin-bottom: -0.04rem;
+      font-size: 1.01rem;
+    }
+    p::last-child {
+      font-size: 1.01rem;
+      font-family: "Mulish", sans-serif;
+      margin-bottom: 2rem;
+      color: $black;
+    }
+  }
+  .process-explanation {
+    .row {
+        margin-top: 2rem;
+      .process-icon {
+        font-size: 2.4rem;
+        color: $blue;
+      }
+      .process-par {
+        font-size: 1.2rem;
+        padding: 1rem;
+        color: $blue;
+      }
+    }
+  }
+}

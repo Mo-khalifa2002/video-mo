@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.price-home-btn {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #c74dd6;
+  margin-top: 1rem;
+}
+
+.price-home-btn::hover {
+  background: #0849a2;
+}
+
+.price .contact-heading {
+  background: #0849a2;
+  padding: 3rem 3rem;
+  font-size: 2rem;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  margin: 0 0 3rem 0;
+  -webkit-box-shadow: rgba(148, 55, 255, 0.611) 0px 0px 10px;
+          box-shadow: rgba(148, 55, 255, 0.611) 0px 0px 10px;
+}
+
+.price .first-price {
+  background: #f3f7fd;
+  padding: 5rem 0;
+  -webkit-box-shadow: rgba(165, 255, 173, 0.499) 0px 0px 10px;
+          box-shadow: rgba(165, 255, 173, 0.499) 0px 0px 10px;
+}
+
+.price .first-price p {
+  font-weight: 600;
+  color: #0849a2;
+  margin-bottom: 4px;
+  font-family: vsm;
+  font-size: 1.35rem;
+}
+
+.price .first-price h1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.price .first-price .second-price {
+  font-weight: 500;
+  color: #00082b;
+  margin-bottom: 4px;
+  font-family: vsm;
+  font-size: 1.35rem;
+  margin-top: 1rem;
+}
+
+.price .third-price .third-price-card {
+  -webkit-box-shadow: #eaebec 0px 0px 18px;
+          box-shadow: #eaebec 0px 0px 18px;
+  height: 100%;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.price .third-price .third-price-card:hover {
+  background: #f3f7fd;
+  cursor: default;
+  -webkit-box-shadow: rgba(168, 84, 247, 0.514) 0px 0px 18px;
+          box-shadow: rgba(168, 84, 247, 0.514) 0px 0px 18px;
+}
+
+.price .third-price .third-price-card h4 {
+  font-family: cursive;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.price .third-price .third-price-card .d-flex {
+  margin-bottom: 1rem;
+}
+
+.price .third-price .third-price-card .third-price-icon .price-icon {
+  color: #0849a2;
+  font-size: 1.2rem;
+}
+
+.price .third-price .third-price-card .third-price-desc {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.price .third-price .third-price-card .third-price-final-par {
+  font-size: 1.01rem;
+  margin-bottom: 1.2rem;
+  color: #00082b;
+}
+
+.price .medium b,
+.price .advanced b {
+  font-size: 1.1rem;
+  font-family: revert;
+  margin-left: 3px;
+  color: #00082b;
+}
+
+.price .med-icon {
+  font-size: 1.1rem;
+  color: #c74dd6;
+}
+
+.price .the-pricing-varies,
+.price .depends-on {
+  font-size: 1.2rem;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.price .third-list {
+  margin-left: 1.4rem;
+  margin-top: 1.3rem;
+}
+/*# sourceMappingURL=price.css.map */

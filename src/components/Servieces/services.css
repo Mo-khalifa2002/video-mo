@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.services {
+  margin-top: 5rem;
+}
+
+.services h1 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.services .row div {
+  background-color: #f8f8f8;
+  color: #00082b;
+  margin: 8px 0;
+  text-align: center;
+  padding: 1.1rem 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.services .row div:hover {
+  background: #c74dd6;
+  color: #fff;
+}
+
+.services button {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #48b3d8;
+  margin: 2rem 0;
+}
+
+.services button:hover {
+  background: #0849a2;
+}
+/*# sourceMappingURL=services.css.map */

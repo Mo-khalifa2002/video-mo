@@ -1,0 +1,55 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.portfolio-page h2 {
+  color: #00082b;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.portfolio-iframe {
+  border-radius: 9px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.portfolio-par {
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  color: #00082b;
+}
+
+.back-to-home {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  background: #0849a2;
+}
+
+.back-to-home:hover {
+  background: #48b3d8;
+}
+/*# sourceMappingURL=Portfolio.css.map */

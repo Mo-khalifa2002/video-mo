@@ -1,0 +1,25 @@
+@import "../../App.scss";
+
+.pricing {
+  // background: $whity;
+  padding: 3rem 0;
+  margin-top: 6rem;
+  p {
+    font-weight: 600;
+    color: $blue;
+    margin-bottom: 4px;
+    font-family: vsm;
+    font-size: 1.35rem;
+  }
+  h1 {
+    @include hh;
+  }
+  button {
+    @include btnn;
+    background: $flower;
+    margin-top: 2rem;
+    &:hover {
+      background: $green;
+    }
+  }
+}

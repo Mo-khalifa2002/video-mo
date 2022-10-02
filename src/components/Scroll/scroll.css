@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 20px;
+  background: #48b3d8;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  padding: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 3000;
+}
+
+.back-to-top .scroll-icon {
+  color: #fff !important;
+}
+
+.back-to-top:hover {
+  background: #c74dd6;
+  border-radius: 1px solid #00082b;
+  color: #fff;
+}
+/*# sourceMappingURL=scroll.css.map */

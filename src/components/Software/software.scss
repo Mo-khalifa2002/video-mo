@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+.software {
+  .container {
+    .row {
+      background: $whity;
+      margin-top: 7rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      p {
+        font-size: 2.4rem;
+        line-height: 46px;
+        color: $blue;
+        font-weight: 700;
+      }
+    }
+   
+    .soft-third-img {
+      width: 12rem;
+      border-radius: 2rem;
+      overflow: hidden;
+      img {
+        width: 110%;
+      }
+    }
+  }
+  button{
+    @include btnn;
+    background: $blue;
+    text-align: center;
+    &:hover{
+        background: $green;
+    }
+  }
+}

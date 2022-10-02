@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+// variables
+$black: #00082b;
+$white: #fff;
+$whity: #f3f7fd;
+$blue: #0849a2;
+$gray: #f8f8f8;
+$green: #48b3d8;
+$flower: #c74dd6;
+$trans: all 0.3s ease-in-out;
+$border: 9px;
+$grey: rgb(230, 236, 249);
+
+// mixins
+@mixin flexy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin btnn {
+  width: 198px;
+  height: 57px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  border: none;
+  color: $white;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: sans-serif;
+  letter-spacing: 1.4px;
+  font-size: 1.2rem;
+  transition: $trans;
+}
+@mixin hh {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}

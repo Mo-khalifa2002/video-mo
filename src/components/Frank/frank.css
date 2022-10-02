@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after,
+body,
+body::before,
+body::after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.frank .row h2 {
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  color: #00082b;
+}
+
+.frank .row .frank-right .first-par {
+  color: #00082b;
+  font-family: Oswald, Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
+}
+
+.frank .row .frank-right .second-par {
+  color: #00082b;
+  font-family: Oswald, Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
+}
+
+.frank .row .frank-right .third-par {
+  color: #00082b;
+  font-family: Oswald, Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
+}
+
+.frank .row .third-par-list .third-par-list-icon {
+  color: #00082b;
+  font-family: Oswald, Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
+}
+
+.frank .row .third-par-list .third-par-list-des {
+  color: #00082b;
+  font-family: Oswald, Sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 1.2em;
+  letter-spacing: 0.8px;
+}
+/*# sourceMappingURL=frank.css.map */

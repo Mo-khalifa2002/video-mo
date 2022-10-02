@@ -1,0 +1,68 @@
+@import "../../App.scss";
+
+.portfolio {
+  .button-vlogs{
+    background-color: $flower !important;
+    &:hover{
+      background-color: $blue !important;
+    }
+  }
+  background: $whity;
+  .portfolio-item {
+    .portfolio-iframe {
+      border-radius: 5px;
+      box-shadow: rgba(69, 109, 255, 0.449) 0px 3px 8px;
+      width: 21.25rem;
+      height: 12.1875rem;
+    }
+    .portfolio-par {
+      text-align: center;
+      font-size: 1.3rem;
+      font-family: sans-serif;
+      text-transform: capitalize;
+      color: $black;
+    }
+  }
+  .por-have {
+    padding: 4rem 0;
+    h1 {
+      font-size: 2.1rem;
+      font-family: cursive;
+      color: $black;
+      letter-spacing: 1px;
+      font-weight: 600;
+    }
+    p {
+      color: $blue;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-top: 0.7rem;
+    }
+    .just {
+      text-align: center;
+      font-family: sans-serif;
+      color: $black;
+      animation: justAnime 1s linear 2s infinite alternate;
+    }
+    button {
+      @include btnn;
+      background: $green;
+      transition: $trans;
+      // margin-bottom: 3rem;
+      &:hover {
+        background: $flower;
+      }
+    }
+  }
+}
+@keyframes justAnime {
+  from {
+    opacity: 1;
+    color: $black;
+  }
+  to {
+    opacity: 0.5;
+    color: $flower;
+  }
+}

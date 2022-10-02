@@ -1,0 +1,108 @@
+@import "../../App.scss";
+
+.price-home-btn{
+  @include btnn;
+  background: $flower;
+  margin-top: 1rem;
+  &::hover{
+    background: $blue;
+  }
+}
+.price {
+    .contact-heading {
+    background: $blue;
+    padding: 3rem 3rem;
+    font-size: 2rem;
+    line-height: 40px;
+    border-radius: 5px;
+    color: $white;
+    text-align: center;
+    margin: 0 0 3rem 0;
+    box-shadow: rgba(148, 55, 255, 0.611) 0px 0px 10px;
+  }
+  .first-price {
+    background: $whity;
+    padding: 5rem 0;
+    box-shadow: rgba(165, 255, 173, 0.499) 0px 0px 10px;
+    p {
+      font-weight: 600;
+      color: $blue;
+      margin-bottom: 4px;
+      font-family: vsm;
+      font-size: 1.35rem;
+    }
+    h1 {
+      @include hh;
+    }
+    .second-price {
+      font-weight: 500;
+      color: $black;
+      margin-bottom: 4px;
+      font-family: vsm;
+      font-size: 1.35rem;
+      // margin: 0 13rem;
+      margin-top: 1rem;
+    }
+  }
+  .third-price {
+    .third-price-card {
+      box-shadow: rgb(234, 235, 236) 0px 0px 18px;
+      height: 100%;
+      padding: 30px;
+      border-radius: 10px;
+      transition: $trans;
+      &:hover {
+        background: $whity;
+        cursor: default;
+        box-shadow: rgba(168, 84, 247, 0.514) 0px 0px 18px;
+      }
+      h4 {
+        font-family: cursive;
+        margin-bottom: 2rem;
+        font-weight: 700;
+        font-size: 1.5rem;
+      }
+      .d-flex {
+        margin-bottom: 1rem;
+      }
+      .third-price-icon {
+        .price-icon {
+          color: $blue;
+          font-size: 1.2rem;
+        }
+      }
+      .third-price-desc {
+        margin-left: 1rem;
+        font-size: 1.1rem;
+        font-family: sans-serif;
+        font-weight: 500;
+      }
+      .third-price-final-par {
+        font-size: 1.01rem;
+        margin-bottom: 1.2rem;
+        color: $black;
+      }
+    }
+  }
+  .medium b,
+  .advanced b {
+    font-size: 1.1rem;
+    font-family: revert;
+    margin-left: 3px;
+    color: $black;
+  }
+  .med-icon {
+    font-size: 1.1rem;
+    color: $flower;
+  }
+  .the-pricing-varies,
+  .depends-on {
+    font-size: 1.2rem;
+    font-family: inherit;
+    font-weight: 500;
+  }
+  .third-list {
+    margin-left: 1.4rem;
+    margin-top: 1.3rem;
+  }
+}
