@@ -10,10 +10,16 @@ const Cinematic = () => {
 
       <h2 className="text-center">Cinematic Videos</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
       <div className="container">
@@ -40,14 +46,11 @@ const Cinematic = () => {
           </div>
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
-              src="https://www.youtube.com/embed/q7gjaczQigo"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
               className="portfolio-iframe"
+              src="https://drive.google.com/file/d/15Cf7X3S3Zo7xgKpb54sYlf0MKlM2z8z2/preview"
+              allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">Tourism Ireland</p>
+            <p className="portfolio-par">anime scene compilation</p>
           </div>
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
@@ -66,11 +69,11 @@ const Cinematic = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-src="https://drive.google.com/file/d/15nYtfV7AEqrJwsNWR6yRHZ78H2LVLtUm/preview"              allow="autoplay"
+              src="https://drive.google.com/file/d/15nYtfV7AEqrJwsNWR6yRHZ78H2LVLtUm/preview"
+              allow="autoplay"
             ></iframe>
             <p className="portfolio-par">luxury life</p>
           </div>
-
         </div>
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
       </div>

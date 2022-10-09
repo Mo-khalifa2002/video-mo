@@ -10,10 +10,16 @@ const CashCow = () => {
 
       <h2 className="text-center">Cash Cow Video Editing</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
 
@@ -27,13 +33,14 @@ const CashCow = () => {
             ></iframe>
             <p className="portfolio-par">Goat</p>
           </div>
+
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1L8dfFiyH09h-2yyH6yAqZvwutZ0d4VhA/preview"
+              src="https://drive.google.com/file/d/1L3kNMDF-WFi6gjLW04WR3kTPYh9dl4ak/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">make money with coding</p>
+            <p className="portfolio-par">How to make mill....</p>
           </div>
 
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
@@ -50,6 +57,13 @@ const CashCow = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1tUOtX31Th47wJGKS-dwFThUS5IYQaNIf/preview"
+            ></iframe>
+            <p className="portfolio-par">jeff bezos...</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
               src="https://drive.google.com/file/d/1TR8WuVOYzoUr7E9hwfQ5PnA3RlL11YR5/preview"
               allow="autoplay"
             ></iframe>
@@ -59,19 +73,68 @@ const CashCow = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1SSQjEFW1_mKcr6HfgckOjiAd45xJ_r4D/preview"
+              src="https://drive.google.com/file/d/1jzHWnypiHYON5fm8ZFxo6EIrxmaGSYDk/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">mahmoud alaraby</p>
+            <p className="portfolio-par">have you seen...</p>
+          </div>
+        </div>
+
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1U58F-07HPeLYmJhHZkSHAWz1kXOUdi16/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">the truman show</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1DQ-eVcjpQOHlHpjkL3KVrI5i-Y_ZQOQf/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">the most humiliating...</p>
           </div>
 
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1jzHWnypiHYON5fm8ZFxo6EIrxmaGSYDk/preview"
+              src="https://drive.google.com/file/d/1Ed6K4rOzHIdcy7zaW4MATOPRYvKBl78V/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">have you seen...</p>
+            <p className="portfolio-par">why ferrari...</p>
+          </div>
+        </div>
+
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1KzmuoHwsOrhKfdm8-U8xL_AwGAl91wm5/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">tiktok subtitles -2</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1C3j0S_2BF7RJ3YBtYEP0agzwAM_KuWAw/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">elon musk just officially</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              src="https://www.youtube.com/embed/OS2laXlOOmU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              className="portfolio-iframe"
+            ></iframe>
+            <p className="portfolio-par">The Cons of Violence</p>
           </div>
         </div>
 
@@ -189,36 +252,6 @@ const CashCow = () => {
               allow="autoplay"
             ></iframe>
             <p className="portfolio-par">digest "indian"</p>
-          </div>
-        </div>
-
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              src="https://www.youtube.com/embed/OS2laXlOOmU"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              className="portfolio-iframe"
-            ></iframe>
-            <p className="portfolio-par">The Cons of Violence</p>
-          </div>
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
-              allow="autoplay"
-            ></iframe>
-            <p className="portfolio-par">tesla</p>
-          </div>
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1C3j0S_2BF7RJ3YBtYEP0agzwAM_KuWAw/preview"
-              allow="autoplay"
-            ></iframe>
-            <p className="portfolio-par">elon musk just officially</p>
           </div>
         </div>
 
@@ -363,8 +396,36 @@ const CashCow = () => {
             ></iframe>
             <p className="portfolio-par">The Farmer Boy</p>
           </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1SSQjEFW1_mKcr6HfgckOjiAd45xJ_r4D/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">mahmoud alaraby</p>
+          </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">tesla</p>
+          </div>
+        </div>
+
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1L8dfFiyH09h-2yyH6yAqZvwutZ0d4VhA/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">make money with coding</p>
+          </div>
+        </div>
       </div>
     </div>
   );

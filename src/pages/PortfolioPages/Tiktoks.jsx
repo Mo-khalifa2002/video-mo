@@ -10,10 +10,16 @@ const Tiktoks = () => {
 
       <h2 className="text-center">TikToks & Reels</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
       <div className="container">
@@ -21,18 +27,19 @@ const Tiktoks = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1KzmuoHwsOrhKfdm8-U8xL_AwGAl91wm5/preview"
+              src="https://drive.google.com/file/d/19jVkcBvq0qLzrNxB1UfV8QWMbSdAlPmI/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">tiktok subtitles -2</p>
+            <p className="portfolio-par">Dr Strange...</p>
           </div>
+
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1Ko2SkWLc6V4_rnXgvu4LtXRJ8SvdlxiD/preview"
+              src="https://drive.google.com/file/d/130xYmk5nGwHE_rmPN0CC7u7RxvzPuYvT/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">tiktok subtitles -1</p>
+            <p className="portfolio-par">life is too...</p>
           </div>
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
@@ -151,15 +158,15 @@ const Tiktoks = () => {
             <p className="portfolio-par">space "shorts"</p>
           </div>
         </div>
-        
+
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1OOL6lW0PVEKJyYrbLpJdogBrVoScnpMa/preview"
+              src="https://drive.google.com/file/d/1Ko2SkWLc6V4_rnXgvu4LtXRJ8SvdlxiD/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">beverly beauty clinics</p>
+            <p className="portfolio-par">tiktok subtitles -1</p>
           </div>
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
@@ -169,9 +176,33 @@ const Tiktoks = () => {
             ></iframe>
             <p className="portfolio-par">shwepps</p>
           </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1KzmuoHwsOrhKfdm8-U8xL_AwGAl91wm5/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">tiktok subtitles -2</p>
+          </div>
         </div>
 
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1LnOvMqzbnKVgXBdaFIFtf1QyXCRXmr9C/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">messi's expensive items</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+src="https://drive.google.com/file/d/1U58F-07HPeLYmJhHZkSHAWz1kXOUdi16/preview"              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">The truman show</p>
+          </div>
+        </div>
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
       </div>
     </div>

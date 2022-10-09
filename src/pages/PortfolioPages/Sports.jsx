@@ -10,10 +10,16 @@ const Sports = () => {
 
       <h2 className="text-center">Sports Videos</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
       <div className="container">
@@ -26,13 +32,12 @@ const Sports = () => {
             ></iframe>
             <p className="portfolio-par">Caloos Amazing workout</p>
           </div>
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+         <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1bFsF7xBXwn_Nrk92ZnyB1vm9ZX-9bCjp/preview"
-              allow="autoplay"
+              src="https://drive.google.com/file/d/1DQ-eVcjpQOHlHpjkL3KVrI5i-Y_ZQOQf/preview"
             ></iframe>
-            <p className="portfolio-par">Boxing fight " short video "</p>
+            <p className="portfolio-par">The most humiluating...</p>
           </div>
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
@@ -67,6 +72,9 @@ const Sports = () => {
             ></iframe>
             <p className="portfolio-par">Nymar</p>
           </div>
+        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+         
         </div>
       </div>
     </div>
