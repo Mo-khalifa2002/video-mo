@@ -10,10 +10,16 @@ const Youtube = () => {
 
       <h2 className="text-center">YouTube Video Editing</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
 
@@ -49,10 +55,10 @@ const Youtube = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1iAF0iov1ys3qiuBTUT7-6mM9YWk-EbDe/preview"
+              src="https://drive.google.com/file/d/1dluwy9qhG3nAaHqc1LkWMC4SIMPPFY5i/preview"
               allow="autoplay"
             ></iframe>
-            <p className="portfolio-par">Coaches "youtube edit"</p>
+            <p className="portfolio-par">from $100 to $1M</p>
           </div>
 
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
@@ -94,12 +100,22 @@ const Youtube = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-src="https://drive.google.com/file/d/1tAbWAL7fl52dOR1ErQF5xwQbVzoHF8Fj/preview"              allow="autoplay"
+              src="https://drive.google.com/file/d/1tAbWAL7fl52dOR1ErQF5xwQbVzoHF8Fj/preview"
+              allow="autoplay"
             ></iframe>
             <p className="portfolio-par">Nymar</p>
           </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1iAF0iov1ys3qiuBTUT7-6mM9YWk-EbDe/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Coaches "youtube edit"</p>
+          </div>
+        </div>
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
       </div>

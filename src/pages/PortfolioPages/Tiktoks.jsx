@@ -198,12 +198,72 @@ const Tiktoks = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-src="https://drive.google.com/file/d/1U58F-07HPeLYmJhHZkSHAWz1kXOUdi16/preview"              allow="autoplay"
+              src="https://drive.google.com/file/d/1U58F-07HPeLYmJhHZkSHAWz1kXOUdi16/preview"
+              allow="autoplay"
             ></iframe>
             <p className="portfolio-par">The truman show</p>
           </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1gfzHcbjnLLljK2hOoUrL1fNONfw3Imxu/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">6 old falgs</p>
+          </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1OXERB_-0gIelP3KvILEN-pZnzvJCogXx/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1R-UoLU-pSmVA7PENmXVwMVnVClgUtkvK/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing -1</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1i0fxz3nlLyXWOvbudZ0yuWGSulGrNsec/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing -2</p>
+          </div>
+        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1rP9jppy7Ce-tuhH9D_vzDwLj23bI4PAS/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Fitness</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1fu5toW9YJdUVDFiy7BkJvFzmjzIKn1O-/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Life is too...</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1_GRWd5L5Wm1-YPphDfsGPlwmxSLJB1h2/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Fitness & Food</p>
+          </div>
+        </div>
       </div>
     </div>
   );

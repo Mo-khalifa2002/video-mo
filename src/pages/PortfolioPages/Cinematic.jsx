@@ -75,7 +75,16 @@ const Cinematic = () => {
             <p className="portfolio-par">luxury life</p>
           </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1KpFw86ItxWh8u30xNnLKkjNTZ88dW_8y/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Real Estate Cinematic</p>
+          </div>
+        </div>
       </div>
     </div>
   );

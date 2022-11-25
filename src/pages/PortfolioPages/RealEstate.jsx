@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./Portfolio.scss";
 import Scroll from "../../components/Scroll/Scroll";
 import { Link } from "react-router-dom";
@@ -10,10 +10,16 @@ const RealEstate = () => {
 
       <h2 className="text-center">Real Estate Videos</h2>
 
-      <Link to="/" style={{    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    marginBottom: "2rem", textDecoration: "none"}}>
+      <Link
+        to="/"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginBottom: "2rem",
+          textDecoration: "none",
+        }}
+      >
         <button className="back-to-home text-center">back to home</button>
       </Link>
       <div className="container">
@@ -51,15 +57,23 @@ const RealEstate = () => {
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
-src="https://drive.google.com/file/d/1AiyNFohuEquTnq12ZjiOSIzH8GkumKmP/preview"              allow="autoplay"
+              src="https://drive.google.com/file/d/1AiyNFohuEquTnq12ZjiOSIzH8GkumKmP/preview"
+              allow="autoplay"
             ></iframe>
             <p className="portfolio-par">grand pointe</p>
           </div>
-
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1KpFw86ItxWh8u30xNnLKkjNTZ88dW_8y/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Real Estate Cinematic</p>
+          </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default RealEstate
+export default RealEstate;

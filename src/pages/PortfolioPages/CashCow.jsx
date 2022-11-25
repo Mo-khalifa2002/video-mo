@@ -1,7 +1,7 @@
-import React from 'react'
-import './Portfolio.scss'
-import Scroll from "../../components/Scroll/Scroll"
-import {Link} from 'react-router-dom'
+import React from "react";
+import "./Portfolio.scss";
+import Scroll from "../../components/Scroll/Scroll";
+import { Link } from "react-router-dom";
 
 const CashCow = () => {
   return (
@@ -105,6 +105,69 @@ const CashCow = () => {
               allow="autoplay"
             ></iframe>
             <p className="portfolio-par">why ferrari...</p>
+          </div>
+        </div>
+
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1Wi_Zm6l4e1AFT-OsGU89qDfat50dIx_y/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Dark5 Incredible</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1E_WVaSSu8AFJjspTI-_5DQEyouyRoyw5/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Porsche Brand</p>
+          </div>
+        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1L8dfFiyH09h-2yyH6yAqZvwutZ0d4VhA/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">make money with coding</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1Mibe3iyLlRdw7s7th_th8gIc4cPTroCo/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">habits that ...</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1T6vhVAg0OIPmujmIw8wj2PztCEFHV7-B/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">2030</p>
+          </div>
+        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">tesla</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe className="portfolio-iframe" allow="autoplay"></iframe>
+            <p className="portfolio-par"></p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe className="portfolio-iframe" allow="autoplay"></iframe>
+            <p className="portfolio-par"></p>
           </div>
         </div>
 
@@ -405,30 +468,10 @@ const CashCow = () => {
             <p className="portfolio-par">mahmoud alaraby</p>
           </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
-              allow="autoplay"
-            ></iframe>
-            <p className="portfolio-par">tesla</p>
-          </div>
-        </div>
-
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1L8dfFiyH09h-2yyH6yAqZvwutZ0d4VhA/preview"
-              allow="autoplay"
-            ></iframe>
-            <p className="portfolio-par">make money with coding</p>
-          </div>
-        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
       </div>
     </div>
   );
-}
+};
 
-export default CashCow
+export default CashCow;

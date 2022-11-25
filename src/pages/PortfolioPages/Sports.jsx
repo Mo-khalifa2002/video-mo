@@ -32,7 +32,7 @@ const Sports = () => {
             ></iframe>
             <p className="portfolio-par">Caloos Amazing workout</p>
           </div>
-         <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
             <iframe
               className="portfolio-iframe"
               src="https://drive.google.com/file/d/1DQ-eVcjpQOHlHpjkL3KVrI5i-Y_ZQOQf/preview"
@@ -73,9 +73,34 @@ const Sports = () => {
             <p className="portfolio-par">Nymar</p>
           </div>
         </div>
+
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
-         
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1OXERB_-0gIelP3KvILEN-pZnzvJCogXx/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1R-UoLU-pSmVA7PENmXVwMVnVClgUtkvK/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing -1</p>
+          </div>
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1i0fxz3nlLyXWOvbudZ0yuWGSulGrNsec/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">Boxing -2</p>
+          </div>
         </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
       </div>
     </div>
   );
