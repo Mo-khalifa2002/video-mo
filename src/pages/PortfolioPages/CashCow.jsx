@@ -152,24 +152,6 @@ const CashCow = () => {
             <p className="portfolio-par">2030</p>
           </div>
         </div>
-        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe
-              className="portfolio-iframe"
-              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
-              allow="autoplay"
-            ></iframe>
-            <p className="portfolio-par">tesla</p>
-          </div>
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe className="portfolio-iframe" allow="autoplay"></iframe>
-            <p className="portfolio-par"></p>
-          </div>
-          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
-            <iframe className="portfolio-iframe" allow="autoplay"></iframe>
-            <p className="portfolio-par"></p>
-          </div>
-        </div>
 
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
           <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
@@ -466,6 +448,16 @@ const CashCow = () => {
               allow="autoplay"
             ></iframe>
             <p className="portfolio-par">mahmoud alaraby</p>
+          </div>
+        </div>
+        <div className="row mb-4 d-flex justify-content-center align-items-center gap-4">
+          <div className="portfolio-item col-lg-3 col-md-6 col-sm-12">
+            <iframe
+              className="portfolio-iframe"
+              src="https://drive.google.com/file/d/1ncFSKz-L4A9CC-tsackpSjqfyvRLrLqq/preview"
+              allow="autoplay"
+            ></iframe>
+            <p className="portfolio-par">tesla</p>
           </div>
         </div>
         <div className="row mb-4 d-flex justify-content-center align-items-center gap-4"></div>
